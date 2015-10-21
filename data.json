@@ -1,0 +1,16 @@
+{
+  "projects": [
+    {
+      "title": "Gradle Knappsack Plugin",
+      "url": "https://github.com/ctco/gradle-knappsack-plugin",
+      "description": "This Gradle plug-in provides means to connect to a Knappsack server to perform artifact deployment.",
+      "img": "dog.png"
+    },
+    {
+      "title": "\"JavaScript Introduction\" training",
+      "url": "https://github.com/ctco/javascript-introduction-training",
+      "description": "Training materials for the CTCo Javascript introduction course.",
+      "img": "ipad.png"
+    }
+  ]
+}
