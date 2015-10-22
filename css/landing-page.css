@@ -25,6 +25,11 @@ h6 {
     font-size: 14px; 
 }
 
+.navbar-brand {
+    background: url('../img/logo-small.png') no-repeat center center;
+    width: 120px;
+}
+
 .lead {
     font-size: 18px;
     font-weight: 400;
