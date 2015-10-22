@@ -105,7 +105,7 @@
         <div ng-class="(i % 2 === 0) ? 'content-section-a' : 'content-section-b'" ng-repeat="(i, project) in projects.list">
             <div class="container">
                 <div class="row">
-                    <div ng-class="(i % 2 === 0) ? 'col-lg-5 col-sm-6' : 'col-lg-5 col-lg-offset-1 col-sm-push-6 col-sm-6'">
+                    <div class="col-lg-offset-1 col-lg-5 col-sm-6">
                         <hr class="section-heading-spacer">
                         <div class="clearfix"></div>
                         <h2 class="section-heading" ng-bind="project.title"></h2>
@@ -114,7 +114,7 @@
                             <a ng-href="{{project.url}}">GitHub</a>
                         </h4>
                     </div>
-                    <div ng-class="(i % 2 === 0) ? 'col-lg-5 col-lg-offset-2 col-sm-6' : 'col-lg-5 col-sm-pull-6  col-sm-6'">
+                    <div class="col-lg-5 col-sm-6">
                         <img class="img-responsive" ng-src="img/{{project.img}}" alt="">
                     </div>
                 </div>
