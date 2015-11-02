@@ -122,13 +122,15 @@ h6 {
 .banner {
     padding: 50px 0;
     color: #f8f8f8;
-    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/banner-bg.jpg) no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banner-bg.jpg) no-repeat center center;
     background-size: cover;
+    text-align: center;
+    text-shadow: 2px 2px #333;
 }
 
 .banner h2 {
     margin-bottom: 15px;
-    font-size: 3em;
+    font-size: 4em;
 }
 
 .banner h2 a {
