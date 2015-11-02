@@ -40,7 +40,7 @@ h6 {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/intro-bg.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -122,7 +122,7 @@ h6 {
 .banner {
     padding: 50px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../img/banner-bg.jpg) no-repeat center center;
     background-size: cover;
 }
 
