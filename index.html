@@ -106,13 +106,13 @@
         <div ng-class="(i % 2 === 0) ? 'content-section-a' : 'content-section-b'" ng-repeat="(i, project) in projects.list">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-offset-1 col-lg-5 col-sm-6">
+                    <div class="col-lg-offset-1 col-lg-5 col-sm-6 vcenter">
                         <hr class="section-heading-spacer">
                         <div class="clearfix"></div>
                         <h2 class="section-heading"><a ng-href="{{project.url}}" ng-bind="project.title"></a></h2>
                         <p class="lead" ng-bind="project.description"></p>
                     </div>
-                    <div class="col-lg-5 col-sm-6">
+                    <div class="col-lg-5 col-sm-6 vcenter">
                         <img class="img-responsive" ng-src="img/{{project.img}}" alt="">
                     </div>
                 </div>
