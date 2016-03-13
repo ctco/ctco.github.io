@@ -1,10 +1,16 @@
 {
   "projects": [
     {
-      "title": "cukes-rest",
+      "title": "Cukes-REST",
       "url": "https://github.com/ctco/cukes-rest",
       "description": "cukes-rest takes simplicity of Cucumber and provides bindings for HTTP specification. As a sugar on top, cukes-rest adds steps for storing and using request/response content from a file system, variable support in .features, context inflation in all steps and resources and a custom plug-in system to allow users to add additional project specific content.",
       "img": "cukes-rest-logo.png"
+    },
+    {
+      "title": "Gradle Mobile Plugin",
+      "url": "https://github.com/ctco/gradle-mobile-plugin",
+      "description": "The C.T.Co mobile plugin for Gradle helps you configure and build Xcode and Xamarin (iOS, Android) apps. You can configure a project to build multiple artifacts with profiling for specific environments and build them all with a single task or only the ones you specify. You can profile plist file values, regex replace values in any text based file and replace binary files. Plugin also supports uploading artifacts to a Knappsack server.",
+      "img": "gradle-logo.png"
     }
   ]
 }
